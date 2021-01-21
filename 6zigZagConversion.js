@@ -5,26 +5,6 @@
 // Y   I   R
 // And then read line by line: "PAHNAPLSIIGYIR"
 
-// var convert = function(s, numRows) {
-//     let charArr = []
-//     let step = 1, idx = 0 // variables to work with inside the for loop
-//     for (let i = 0; i < s.length; i += 1){ 
-//         if(charArr[idx] === undefined){ // 
-//             charArr[idx] = ''
-//         } 
-//         charArr[idx] += s[i] 
-//         if(idx === 0){ 
-//             step = 1
-//         }else if(idx === numRows - 1){
-//             step = -1
-//         }
-//         idx += step
-//     }
-//     return charArr.join('')
-// };
-
-// console.log(convert("PAYPALISHIRING", 3))
-
 // PAHN
 // APLSIIG
 // YIR
