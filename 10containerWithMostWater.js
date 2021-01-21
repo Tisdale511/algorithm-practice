@@ -6,7 +6,7 @@ Notice that you may not slant the container.
 
 /*
 
-1) Iterate through height, finding the largest value of [height]
+1) Iterate through height, finding the largest value of [height] 
 
 */
 
