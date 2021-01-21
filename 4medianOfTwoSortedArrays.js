@@ -7,48 +7,6 @@
     
 // };
 
-// var findMedianSortedArrays = function(nums1, nums2) {
-    
-//     let combinedArrayLength = nums1.length + nums2.length;
-//     let halfArrLen;
-//     let medianArray = [];
-
-//     if(combinedArrayLength === 2){
-//         return ((medianArray[0] + medianArray[1])/2)
-//     }
-//     if(nums1 === []){
-//         nums1 === null
-//     }
-//     // console.log(nums1)
-//     if(nums2 === []){
-//         nums2 === null
-//     }
-//     if(combinedArrayLength % 2 !== 0){
-//         halfArrLen = Math.floor(combinedArrayLength/2);
-//     }else{
-//         halfArrLen = (combinedArrayLength/2);
-//     }
-
-//     let i = 0, j = 0;
-
-//     while(medianArray.length <= halfArrLen + 1){
-//         if(nums1[i] <= nums2[j] || nums2[j] === undefined){
-//             medianArray.push(nums1[i]);
-//             i += 1
-//             console.log(medianArray)
-//         }else{
-//             medianArray.push(nums2[j]);
-//             j += 1
-//         }
-
-//         if(medianArray.length === halfArrLen + 1 && halfArrLen % 2 === 0){
-//             return ((medianArray[medianArray.length - 1] + medianArray[medianArray.length - 2])/2)
-//         }else if(medianArray.length === halfArrLen + 1 && halfArrLen % 2 !== 0){
-//             return medianArray[medianArray.length - 1]
-//         }
-//     }
-
-// };
 
 var findMedianSortedArrays = function(nums1, nums2) {
     const totalEle = nums1.length + nums2.length;
