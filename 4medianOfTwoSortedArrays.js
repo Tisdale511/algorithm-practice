@@ -5,7 +5,7 @@
 //     let nums = joined.sort((a, b) => a - b)
 //     return nums.length % 2 !== 0 ? nums[mid] : (nums[mid - 1] + nums[mid])/2;
     
-// };
+// }; 
 
 
 var findMedianSortedArrays = function(nums1, nums2) {
