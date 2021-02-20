@@ -6,7 +6,7 @@
 // And then read line by line: "PAHNAPLSIIGYIR"
 
 // PAHN
-// APLSIIG
+// APLSIIG 
 // YIR
 
 var convert = function(s, numRows) {
