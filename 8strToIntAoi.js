@@ -17,7 +17,7 @@ PLAN OF ATTACK:
 5) remove EVERY part of the string after the integer, if there is anything to remove
 */
 
-let myAtoi = function(s){
+let myAtoi = function(s){ 
     let accChars = '1234567890'.split('')
     let signs = ['-', '+']
     let intArr = []
