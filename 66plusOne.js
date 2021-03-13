@@ -1,7 +1,8 @@
 var plusOne = function(digits) {
     let digStr = digits.join('')
-    let digInt = parseInt(digStr, 10)
-    digInt += 1
-    let plusOneArr = digInt.toString().split('')
+    let hugeInt = BigInt(digStr)
+    hugeInt ++
+    // or hugeInt += BigInt(1)
+    let plusOneArr = hugeInt.toString().split('')
     return plusOneArr
 };
