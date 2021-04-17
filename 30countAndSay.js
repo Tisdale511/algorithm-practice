@@ -15,10 +15,10 @@ const countAndSay = function(n){
             }
             count = 1;
             curChar = thisChar;
-            console.log(curChar)
         }
     }
-    // console.log(result, str)
     return result;
 }
-console.log(countAndSay(4))
+console.log(countAndSay(5))
+
+// returns '111221'
