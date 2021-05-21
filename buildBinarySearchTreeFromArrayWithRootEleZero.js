@@ -14,3 +14,21 @@ const createTree = (array) => {
     return root
 }
 
+const addToTree = (currentNode, val) => {
+    if(currentNode.val > val){
+        if(currentNode.left === null){
+            currentNode.left = new TreeNode(val)
+        }else{
+            addToTree(currentNode.left, val)
+        }
+        // value goes to the left
+    }else{
+        if(currentNode.right === null){
+            currentNode.right = new TreeNode(val)
+        }else{
+            addToTree(currentNode.right, val) 
+            //value goes to the right
+        }
+    }
+}
+
