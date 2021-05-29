@@ -32,5 +32,5 @@ const addToTree = (currentNode, val) => {
 }
  
 let testInput = [26, 3, 9, 20, 15, 7, 82, 36, 12, 23, 56675, -17]
-
+ 
 console.dir(createTree(testInput), {depth: null})
