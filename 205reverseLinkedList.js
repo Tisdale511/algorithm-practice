@@ -9,5 +9,5 @@ var reverseList = function(head) {
         curr = next;
         if (next) next = next.next;
       }
-      
+      return prev;
   };
