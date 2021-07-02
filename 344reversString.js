@@ -3,3 +3,5 @@ var reverseString = function(s) {
  };
 
  let strArr = ["H", "e", "l", "l", "o"]
+
+ console.log(reverseString(strArr))
